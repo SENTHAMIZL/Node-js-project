@@ -1,16 +1,4 @@
-file_upload_manager/
-│
-├── app.py
-├── static/
-│   └── uploads/
-│
-└── templates/
-    ├── base.html
-    ├── home.html
-    ├── upload.html
-    ├── files.html
-    ├── view.html
-    └── delete.html
+
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 import os
 
